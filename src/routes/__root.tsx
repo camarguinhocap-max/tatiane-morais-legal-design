@@ -85,7 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Tatiane Morais" },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "Tatiane Morais | Advogada OAB/PR 129.197" },
+      { property: "og:image", content: "/logo-dark.png" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/logo-dark.png" },
     ],
     links: [
       {
@@ -99,6 +102,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/logo-monograma.png", type: "image/png", sizes: "400x400" },
+      { rel: "apple-touch-icon", href: "/logo-monograma.png" },
     ],
   }),
 

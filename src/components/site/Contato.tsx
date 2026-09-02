@@ -60,9 +60,13 @@ export function Footer() {
       <div className="mx-auto max-w-7xl border-t border-ivory/10 px-5 py-14 sm:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <p className="font-display text-2xl tracking-[0.12em]">TATIANE MORAIS</p>
-            <p className="eyebrow mt-2 text-gold/80">Advogada</p>
-            <p className="mt-4 text-sm text-ivory/50">OAB/PR 129.197</p>
+            <img
+              src="/logo-dark.png"
+              alt="Tatiane Morais Advocacia — OAB/PR 129.197"
+              width={1187}
+              height={304}
+              className="h-auto w-48 sm:w-56"
+            />
           </div>
 
           <div>

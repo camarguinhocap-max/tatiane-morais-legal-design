@@ -37,11 +37,25 @@ export function Header() {
       }`}
     >
       <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 sm:px-8 lg:flex lg:justify-between">
-        <a href="#inicio" className="min-w-0 leading-none" onClick={() => setOpen(false)}>
-          <span className="block font-display text-xl tracking-[0.14em] text-ivory sm:text-2xl">
-            TATIANE MORAIS
+        <a
+          href="#inicio"
+          className="flex min-w-0 items-center gap-3 leading-none"
+          onClick={() => setOpen(false)}
+        >
+          <img
+            src="/logo-monograma.png"
+            alt=""
+            aria-hidden="true"
+            width={44}
+            height={44}
+            className="h-9 w-9 shrink-0 sm:h-11 sm:w-11"
+          />
+          <span className="min-w-0">
+            <span className="block font-display text-xl tracking-[0.14em] text-ivory sm:text-2xl">
+              TATIANE MORAIS
+            </span>
+            <span className="eyebrow mt-1 block text-gold-soft/70">Advocacia</span>
           </span>
-          <span className="eyebrow mt-1 block text-gold-soft/70">Advocacia</span>
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

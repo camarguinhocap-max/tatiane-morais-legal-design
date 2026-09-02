@@ -23,9 +23,9 @@ export function Sobre() {
             <div className="absolute -top-5 -left-5 h-32 w-32 border-t border-l border-gold/50" />
             <img
               src={sobreImg}
-              alt="Tatiane Morais, advogada, em seu escritório durante atendimento"
-              width={1024}
-              height={1280}
+              alt="Tatiane Morais, advogada"
+              width={941}
+              height={1244}
               loading="lazy"
               className="relative w-full object-cover"
             />

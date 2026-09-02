@@ -58,8 +58,8 @@ export function Hero() {
           <img
             src={heroImg}
             alt="Tatiane Morais, advogada inscrita na OAB/PR 129.197"
-            width={1024}
-            height={1408}
+            width={941}
+            height={1253}
             fetchPriority="high"
             className="relative w-full object-cover"
           />
